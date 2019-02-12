@@ -64,3 +64,146 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+
+/*
+
+me and the designer are good friends
+he wanted hover effects on the nav and button
+
+*/
+
+.container {
+	padding: 0 80px;
+	margin: 0 auto;
+	/* so it doesnt break constantly*/
+	width: 1024.8px;
+}
+.inline {
+	display: inline-block;
+}
+
+/* Header Css*/
+
+/* header banner */
+.banner {
+	margin: 25px 0 25px;
+	vertical-align: middle;
+}
+
+.banner nav {
+	margin-top: 10px;
+	display: inline-block;
+	vertical-align: top;
+	font-weight: 600;
+}
+
+.banner nav a{
+	display: inline-block;
+	text-decoration: none;
+	color: lightgrey;
+	font-size: 14px;
+	margin-left: 60px;
+	transition: .2s;
+}
+
+.banner nav a:hover {
+	color: cyan;
+	transform: scale(1.2);
+}
+
+.banner nav a:first-child {
+	margin-left: 0px;
+}
+
+.banner img.logo {
+	margin-left: 95px;
+}
+
+/* header section */
+
+header section {
+	margin-top: 70px;
+}
+
+header section div{
+	margin-left: 60px;
+}
+
+header section .inline {
+	vertical-align: middle;
+	text-align: center;
+	width: 42%;
+}
+
+header section h1 {
+	font-size: 80px;
+}
+
+header section img .inline{
+	height: 150px;
+	width: 150px;
+}
+
+header section button {
+	background: inherit;
+	font: inherit;
+	border: 1.5px solid black;
+	height: 35px;
+	width: 180px;
+	transition: .2s;
+}
+
+header section button:hover {
+	color: cyan;
+	border-color: cyan;
+	box-shadow: 2px 3px 5px rgba(0,0,0,0.4);
+	transform: scale(1.05);
+}
+
+/* main content*/
+
+/* the stuff above the image */
+
+.main-content {
+	border-top: 1.5px solid black;
+	border-bottom: 1.5px solid black;
+
+	margin: 80px 0 30px;
+	padding: 30px 0;
+}
+
+.main-content .above-img .inline {
+	width: 48%;
+	vertical-align: top;
+	margin: 0 0 30px 30px;
+}
+
+.main-content .above-img .inline.first {
+	margin-left: 0px;
+}
+
+/* the image */
+.main-content img.middle-img {
+	display: block;
+	width: 100%;
+	margin-bottom: 30px;
+}
+
+/* the stuff below the image */
+
+.main-content .below-img .inline {
+	width: 30%;
+	margin-left: 4.5%;
+}
+
+.main-content .below-img .inline.first {
+	margin-left: 0;
+}
+
+.container footer small.copyright {
+	font-size: 13px;
+	text-align: center;
+	display: block;
+	padding-top: 50px;
+	padding-bottom: 100px;
+}
