@@ -54,11 +54,11 @@ table {
 
 html, body {
     height: 100%;
-    font-family: 'Titillium Web', sans-serif;
+    font-family: 'Inconsolata', monospace;
 }
 
 h1, h2, h3, h4, h5 {
-    font-family: 'Bangers', cursive;
+    font-family: 'Playfair Display', serif;
     letter-spacing: 1px;
     margin-bottom: 15px;
 }
@@ -116,7 +116,7 @@ he wanted hover effects on the nav and button
 }
 
 .banner img.logo {
-	margin-left: 95px;
+	margin-left: 60px;
 }
 
 /* header section */
@@ -125,15 +125,18 @@ header section {
 	margin-top: 130px;
 }
 
-header section div{
-	margin-left: 60px;
-}
-
 header section .inline {
 	vertical-align: middle;
 	text-align: center;
 	width: 42%;
+	margin-left: 80px;
 }
+
+header section .inline.first {
+	margin-left: 5px;
+}
+
+
 
 header section h1 {
 	font-size: 80px;
@@ -173,7 +176,7 @@ header section button:hover {
 }
 
 .main-content .above-img .inline {
-	width: 48%;
+	width: 45%;
 	vertical-align: top;
 	margin: 0 0 30px 30px;
 }
@@ -193,7 +196,7 @@ header section button:hover {
 
 .main-content .below-img .inline {
 	width: 30%;
-	margin-left: 4.5%;
+	margin-left: 4%;
 }
 
 .main-content .below-img .inline.first {
